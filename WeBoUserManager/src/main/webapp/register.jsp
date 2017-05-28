@@ -58,12 +58,12 @@ function back(){
    	<tr>
    		<td>用户名：</td>
    		<td><input type="text" name="username"></input></td>  
-   		<td>必须填写！</td> 		
+   		<td>必填</td> 		
    	</tr>
    	<tr>
    		<td>密    码：</td>
    		<td><input type="password" name="pswd"></input></td>  
-   		<td>必须填写！</td>  		
+   		<td>必填</td>  		
    		
    	</tr>
    	<tr>
