@@ -1,3 +1,2 @@
 #Tomcat publish data
-#Sun May 28 23:59:42 CST 2017
-org.eclipse.jst.jee.server\:WeBoUserManager=F\:\\apache-tomcat-8.0.32\\webapps\\WeBoUserManager
+#Tue May 30 00:02:42 CST 2017

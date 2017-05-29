@@ -1,0 +1,18 @@
+1495983310338	Delete element
+1495983313880	Delete element
+1495983317175	Delete element
+1496046096805	Move 'index.jsp' to 'pages'
+1496046100876	Move 'register.jsp' to 'pages'
+1496046183191	Rename package 'main.webapp.filter'
+1496046252352	Move compilation unit
+1496046265374	Move compilation unit
+1496046920651	Move 'pages' to 'WEB-INF'
+1496047011366	Move 'web.xml' to 'WEB-INF'
+1496047084088	Rename package 'springmvc'
+1496047121396	Rename package 'springmvc.controller'
+1496047135127	Rename package 'springmvc.filter'
+1496047145785	Rename package 'springmvc.dao'
+1496047162573	Rename package 'springmvc.service'
+1496048946458	Move 'index.jsp' to 'WEB-INF'
+1496049053572	Move 'index.jsp' to 'pages'
+1496053744558	Move 'index.jsp' to 'WEB-INF'

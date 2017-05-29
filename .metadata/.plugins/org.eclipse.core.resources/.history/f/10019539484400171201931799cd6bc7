@@ -1,0 +1,20 @@
+package springmvc.dao;
+
+import java.util.List;
+
+import main.webapp.login.LoginService;
+
+public class LoginDao implements LoginService {
+
+	public LoginDao() {
+		
+	}
+	
+	
+	@Override
+	public boolean login(List<Object> parms) {
+		
+		return false;
+	}
+
+}
