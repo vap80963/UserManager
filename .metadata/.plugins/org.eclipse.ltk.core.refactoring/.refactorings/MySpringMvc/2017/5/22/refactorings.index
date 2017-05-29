@@ -1,2 +1,4 @@
 1496068609620	Move 'index.jsp' to 'pages'
 1496070723058	Move 'bg.jpg' to 'img'
+1496075134152	Move ' jdbc.properties' to 'build'
+1496075151592	Move 'applicationContext.xml' to 'build'

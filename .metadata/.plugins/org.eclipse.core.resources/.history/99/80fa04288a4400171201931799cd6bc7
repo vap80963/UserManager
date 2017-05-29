@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:util="http://www.springframework.org/schema/util" xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans   
+  http://www.springframework.org/schema/beans/spring-beans.xsd  
+  http://www.springframework.org/schema/aop   
+  http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+  http://www.springframework.org/schema/tx   
+  http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+  http://www.springframework.org/schema/context   
+  http://www.springframework.org/schema/context/spring-context-4.0.xsd
+  http://www.springframework.org/schema/util   
+  http://www.springframework.org/schema/util/spring-util-4.0.xsd
+  ">
+  <!-- jdbc.properties文件加载 -->
+  <bean id="applicationProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+     <property name="locations">
+       <list>
+           <value>jdbc.properties</value>
+       </list>
+     </property> 
+  </bean>
+  <!-- 获取到配置文件里的键值对 -->
+  <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer">
+    <property name="properties" ref="applicationProperties" />
+  </bean>
+  <!-- 连接池设置  -->
+  <bean id="dataSource" class="org.logicalcobwebs.proxool.ProxoolDataSource">
+    <property name="driver" value="${driver}"></property>
+    <property name="driverUrl" value="${url}"></property>
+    <property name="user" value="${username}"></property>
+    <property name="password" value="${password}"></property>
+    <property name="houseKeepingSleepTime" value="5000"></property>
+    <property name="testBeforeUse" value="true"></property>
+    <property name="houseKeepingTestSql" value="SELECT count(1) from dual"></property>
+    <property name="maximumActiveTime" value="10000"></property>
+    <!-- 最少保持的空闲连接数 （现在设置20个） -->
+    <property name="prototypeCount" value="20"></property>
+    <!-- 最大连接数 （现在设置100个） -->
+    <property name="maximumConnectionCount" value="100"></property>
+    <!-- 最小连接数 （现在设置50个） -->
+    <property name="minimumConnectionCount" value="30"></property>
+  </bean>
+
+</beans>
