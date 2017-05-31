@@ -1,0 +1,5 @@
+package com.tin.dao;
+
+public class LoginForm {
+
+}

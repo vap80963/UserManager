@@ -15,3 +15,4 @@
 1496162785187	Move ' jdbc.properties' to 'WEB-INF'
 1496162786992	Move 'applicationContext.xml' to 'WEB-INF'
 1496220112685	Delete elements
+1496247480960	Delete element
