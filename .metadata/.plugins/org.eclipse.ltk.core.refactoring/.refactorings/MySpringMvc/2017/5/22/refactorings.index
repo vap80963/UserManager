@@ -2,3 +2,16 @@
 1496070723058	Move 'bg.jpg' to 'img'
 1496075134152	Move ' jdbc.properties' to 'build'
 1496075151592	Move 'applicationContext.xml' to 'build'
+1496116729927	Copy compilation unit
+1496116740206	Delete element
+1496161582407	Move 'applicationContext.xml' to 'WEB-INF'
+1496161584606	Move ' jdbc.properties' to 'WEB-INF'
+1496161650070	Move 'applicationContext.xml' to 'build'
+1496161652789	Move ' jdbc.properties' to 'build'
+1496162701005	Move file
+1496162703277	Move file
+1496162718130	Move ' jdbc.properties' to 'build'
+1496162720971	Move 'applicationContext.xml' to 'build'
+1496162785187	Move ' jdbc.properties' to 'WEB-INF'
+1496162786992	Move 'applicationContext.xml' to 'WEB-INF'
+1496220112685	Delete elements

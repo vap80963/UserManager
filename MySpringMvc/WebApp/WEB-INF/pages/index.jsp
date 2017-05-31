@@ -41,8 +41,8 @@ function login(){
 </head>
 	<style>
         body {
-            background : url(${contextPath}/resources/img/bg.jpg);
-            background-size : 100% 100%;
+            background : url(${contextPath}/resources/img/bg.png);
+            background-size : contain;
         }
     </style>
 <body>

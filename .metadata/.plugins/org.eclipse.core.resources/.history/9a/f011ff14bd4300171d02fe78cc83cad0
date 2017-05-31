@@ -1,5 +1,0 @@
-package main.webapp.filter;
-
-public class MyLoginFilter {
-
-}

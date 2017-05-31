@@ -36,5 +36,17 @@
 	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/spring-webmvc-portlet-4.3.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/spring-websocket-4.3.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/classes12.jar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/db2java.jar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/mysql.jar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/Opta.jar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/c3p0.gz"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/dbcp.rar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/SQL Server 2000 JDBC.jar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/proxool-0.9.1.jar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/proxool-cglib.jar"/>
+	<classpathentry kind="lib" path="WebApp/WEB-INF/lib/ojdbc7-7.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
