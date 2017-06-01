@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class ViewController {
-
+	
     @RequestMapping("/view")
     public ModelAndView view(HttpServletRequest request){
         String path = request.getParameter("path") + "";
@@ -20,4 +20,5 @@ public class ViewController {
         mav.setViewName(path);
         return mav;
     }
+
 }
